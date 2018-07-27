@@ -69,7 +69,10 @@ function draw()
 
   updatePixels();
 
-  update();
+  for (var i = 0; i < 50; i++)
+  {
+    update();
+  }
 }
 
 function update()
